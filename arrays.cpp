@@ -7,8 +7,9 @@ int main()
  {
 
 array <int,5> arr,arr2;
+array<int,INT_MAX> arr3;
 
-
+cout<<arr3.size()<<endl;
 arr.fill(1);
            //to initialise with a particular value
 cout<<arr[2]<<endl;
